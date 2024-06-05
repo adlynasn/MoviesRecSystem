@@ -129,7 +129,6 @@ elif page == "By Release Year":
 
     # Check if recommendation button is clicked
     recommend_by_year = st.button("Recommend by Year")
-
     if recommend_by_year:
         # Extract release year from movie titles
         movies['release_year'] = movies['title'].str.extract(r'\((\d{4})\)$')
