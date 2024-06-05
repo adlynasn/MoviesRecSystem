@@ -1,4 +1,3 @@
-Sure! Here's a template for a README file for your movie recommendation system project:
 
 ---
 
